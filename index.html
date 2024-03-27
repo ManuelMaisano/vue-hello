@@ -10,8 +10,17 @@
     <title>Hello Vue</title>
 </head>
 <body>
-    <div class="text-center"  id="app"> 
-        <h1>{{ message }}</h1>
+    <div   id="app"> 
+        <h1 class="text-center">{{ message }}</h1>
+        <div>
+            <ul>
+                <li>Name: {{ object.name }}</li>
+                <li>Surname: {{ object.surname }}</li>
+                <li>Age: {{ object.age }}</li>
+                <li>Dateofbirth: {{ object.dateofbirth }}</li>
+            </ul>
+        </div>
     </div>
+
 </body>
 </html>
